@@ -2,6 +2,9 @@ document.getElementById('clearCookiesButton').addEventListener('click', function
     // קבלת כל העוגיות של הדומיין הנוכחי
     var cookies = document.cookie.split(";");
 
+
+    console.log(cookies);
+    
     for (var i = 0; i < cookies.length; i++) {
         var cookie = cookies[i];
         var eqPos = cookie.indexOf("=");
