@@ -10,11 +10,7 @@ document.getElementById('clearCookiesButton').addEventListener('click', function
         document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/";
     }
 
-    chrome.cookies.getAll({ url: "https://new.mishnatyosef.org/" }, function(cookies) {
-    for (let cookie of cookies) {
-      chrome.cookies.remove({ url: "https://new.mishnatyosef.org/", name: cookie.name });
-    }
-  });
+
     
     alert("העוגיות נמחקו בהצלחה!");
     
