@@ -18,5 +18,5 @@ document.getElementById('clearCookiesButton').addEventListener('click', function
     alert("העוגיות נמחקו בהצלחה!");
     
     // הפניה לדף האמיתי
-    window.location.href = "https://github.com/avigail1/";
+    window.location.href = "https://new.mishnatyosef.org/";
 });
